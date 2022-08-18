@@ -1,0 +1,16 @@
+.start {
+  min-height: 45rem;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 18.75rem;
+}
+.item {
+  border-radius: 3rem;
+}
+
+@media (max-width: 640px) {
+  .start {
+    border-radius: 3rem;
+  }
+}
