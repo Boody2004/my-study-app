@@ -36,7 +36,7 @@ const ServicesGrate = (props) => {
               >
                 <div className="p-6">
                   <div className="flex justify-center">
-                    <img src={item.img} alt="Img Services" />
+                    <img src={item.img} alt="Img Services"></img>
                   </div>
                   <div className="text-end my-5">
                     <h1 className="text-2xl font-bold	text-textPrimary mb-2">

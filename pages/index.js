@@ -26,7 +26,7 @@ export default function Home() {
                 className="w-9/12"
                 src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660685912/casual-life-3d-young-man-surrounded-by-gadgets-taking-notes_s9ixdx.png"
                 alt="img start"
-              />
+              ></img>
             </div>
             <div className="text-end max-w-xl text-white">
               <h1 className="font-bold text-6xl sm:text-7xl">
@@ -79,7 +79,7 @@ export default function Home() {
                   <img
                     src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660683558/casual-life-3d-young-man-in-orange-headphones-sitting-at-the-computer_reupky.png"
                     alt="Img Services"
-                  />
+                  ></img>
                 </div>
                 <div className="text-center my-5">
                   <h1 className="text-2xl font-bold	text-textPrimary">
@@ -98,7 +98,7 @@ export default function Home() {
                     className="w-9/12"
                     src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660638929/casual-life-3d-boy-using-laptop-and-talking-on-the-phone_cxtygy.png"
                     alt="Img Services"
-                  />
+                  ></img>
                 </div>
                 <div className="text-center my-5">
                   <h1 className="text-2xl font-bold	text-textPrimary">
@@ -116,7 +116,7 @@ export default function Home() {
                   <img
                     src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660638783/casual-life-3d-boy-sitting-at-the-desk-with-open-book_qma796.png"
                     alt="Img Services"
-                  />
+                  ></img>
                 </div>
                 <div className="text-center my-5">
                   <h1 className="text-2xl font-bold	text-textPrimary">
@@ -134,7 +134,7 @@ export default function Home() {
                   <img
                     src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660638926/casual-life-3d-boy-lying-on-stomach-and-using-tablet-with-stylus-in-hand_htc3nu.png"
                     alt="Img Services"
-                  />
+                  ></img>
                 </div>
                 <div className="text-center my-5">
                   <h1 className="text-2xl font-bold	text-textPrimary">
@@ -163,7 +163,7 @@ export default function Home() {
                 className="w-8/12"
                 src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660769906/casual-life-3d-cat-lying-on-books_hst1vt.png"
                 alt="img start"
-              />
+              ></img>
             </div>
           </div>
         </div>
@@ -174,7 +174,7 @@ export default function Home() {
                 className="w-7/12"
                 src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660770852/casual-life-3d-young-man-and-woman-looking-at-tablet_gs0xsm.png"
                 alt="img start"
-              />
+              ></img>
             </div>
             <div className="text-end max-w-xl grid content-center">
               <h1 className="font-bold text-4xl sm:text-6xl text-textPrimary">
@@ -234,7 +234,7 @@ export default function Home() {
                 className="w-9/12	"
                 src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660737560/casual-life-3d-graduates-hat-and-books_ljid45.png"
                 alt="img start"
-              />
+              ></img>
             </div>
           </div>
         </div>

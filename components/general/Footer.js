@@ -136,7 +136,7 @@ const Footer = () => {
             ©2022 The Launchy Company. All Rights Reserved.
           </p>
           <div className="flex justify-between my-2 text-white">
-            <a href="https://www.google.com" target="_blank">
+            <a href="https://www.google.com">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -152,7 +152,7 @@ const Footer = () => {
                 />
               </svg>
             </a>
-            <a href="https://www.google.com" target="_blank">
+            <a href="https://www.google.com">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 mx-3"
@@ -168,7 +168,7 @@ const Footer = () => {
                 />
               </svg>
             </a>
-            <a href="https://www.google.com" target="_blank">
+            <a href="https://www.google.com">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
