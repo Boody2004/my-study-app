@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-backgroundSecondary">
       <div className="container mx-auto px-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2	md:grid-cols-3 xl:grid-cols-6 gap-10 pt-24 pb-32 text-textThird text-end">
+        <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-6 gap-10 pt-24 pb-32 text-textThird text-end">
           <div>
             <h1 className="font-bold text-2xl text-white pb-5">
               المرحلة الثانوية
@@ -95,7 +95,7 @@ const Footer = () => {
               </p>
             </Link>
           </div>
-          <div className="col-span-2">
+          <div className="md:col-span-2">
             <h1 className="font-bold text-2xl text-white pb-5">مواكبة</h1>
             <p className="font-medium pb-5">
               انضم إلى النشرة الإخبارية للحصول على تحديثات منتظمة

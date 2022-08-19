@@ -20,7 +20,7 @@ const Service = (props) => {
   }, []);
 
   return (
-    <div className="my-40">
+    <div className="mt-20 mb-40">
       <IntroService
         img={props.img}
         title={props.title}

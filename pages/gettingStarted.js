@@ -11,7 +11,7 @@ const gettingStarted = () => {
       </Head>
       <div className="container mx-auto px-5 sm:px-10">
         <Nav />
-        <div className="my-20">
+        <div className="mb-20">
           <h1 className="text-center font-semibold text-6xl text-light">
             اختر المراحل التعليمية
           </h1>
