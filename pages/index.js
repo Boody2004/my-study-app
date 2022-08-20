@@ -149,7 +149,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             <div className="text-end max-w-xl grid content-center">
               <h1 className="font-bold text-4xl sm:text-6xl text-textPrimary">
-                جميع الكتب الوزارة و
+                جميع كتب الوزارة و
                 <span className="text-lightSecondary">كتب الخارجية</span>
               </h1>
               <p className="text-xl mt-10 text-textPrimary">

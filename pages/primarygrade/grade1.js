@@ -15,7 +15,7 @@ const PrimaryGrade1 = () => {
           img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660638783/casual-life-3d-boy-sitting-at-the-desk-with-open-book_qma796.png"
           title="المرحلة الابتدائية Grade 1"
           subtitle="يوجد جميع كتب الوزارة و الكتب الخارجية و الفديوهات التعليمية و الفديوهات التعليمية ذات مصدر مفتوح الي هذه المرحلة"
-          urlApi="primaryGrade/services/grade1"
+          urlApi="primaryGrade/grade1/grade1List"
         />
       </div>
       <Footer />

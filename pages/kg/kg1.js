@@ -15,7 +15,7 @@ const KG1 = () => {
           img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660638926/casual-life-3d-boy-lying-on-stomach-and-using-tablet-with-stylus-in-hand_htc3nu.png"
           title="مرحلة رياض اطفال KG1"
           subtitle="يوجد جميع كتب الوزارة و الكتب الخارجية و الفديوهات التعليمية و الفديوهات التعليمية ذات مصدر مفتوح الي هذه المرحلة"
-          urlApi="kg/services/kg1"
+          urlApi="kg/kg1/kg1List"
         />
       </div>
       <Footer />

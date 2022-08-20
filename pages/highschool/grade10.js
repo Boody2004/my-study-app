@@ -15,7 +15,7 @@ const HighSchool1 = () => {
           img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660683558/casual-life-3d-young-man-in-orange-headphones-sitting-at-the-computer_reupky.png"
           title="المرحلة الثانوية Grade 10"
           subtitle="يوجد جميع كتب الوزارة و الكتب الخارجية و الفديوهات التعليمية و الفديوهات التعليمية ذات مصدر مفتوح الي هذه المرحلة"
-          urlApi="highSchool/services/grade10"
+          urlApi="highSchool/grade10/grade10List"
         />
       </div>
       <Footer />
