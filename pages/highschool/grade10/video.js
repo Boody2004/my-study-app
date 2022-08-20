@@ -1,5 +1,6 @@
 import Nav from "../../../components/general/Nav";
 import IntroService from "../../../components/general/IntroService";
+import VideoPlayer from "../../../components/general/VideoPlayer";
 import Footer from "../../../components/general/Footer";
 
 const Video = () => {
@@ -12,6 +13,7 @@ const Video = () => {
           title="الفديوهات التعليمية"
           subtitle="يوجد افضل الفديوهات شرح الدروس الي هذه المرحلة"
         />
+        <VideoPlayer urlApi="highSchool/grade10/videos" />
       </div>
       <Footer />
     </section>

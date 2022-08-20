@@ -20,7 +20,7 @@ export default function Home() {
             background: "linear-gradient(to right, #5961F9, #EE9AE5)",
           }}
         >
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-8 sm:p-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 p-8 sm:py-20 sm:px-28 lg:px-20">
             <div className="flex justify-center">
               <img
                 className="w-9/12"

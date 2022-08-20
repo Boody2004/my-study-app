@@ -1,6 +1,8 @@
+import React from "react";
+import ReactPlayer from "react-player";
 import { useState, useEffect } from "react";
 
-const PdfViewer = (props) => {
+const VideoPlayer = (props) => {
   const [items, setItems] = useState([]);
   const fetchData = () => {
     fetch(
@@ -27,7 +29,17 @@ const PdfViewer = (props) => {
                 <h1 className="font-bold text-5xl">{item.titleEn}</h1>
                 <h1 className="font-bold text-5xl">{item.titleAr}</h1>
               </div>
-              <iframe className="w-full min-h-screen" src={item.pdf}></iframe>
+              <div className="flex justify-center">
+                <ReactPlayer
+                  controls
+                  url={item.video}
+                  onReady={() => console.log("onReady callback")}
+                  onStart={() => console.log("onStart callback")}
+                  onPause={() => console.log("onPause callback")}
+                  onEnded={() => console.log("onEnded callback")}
+                  onError={() => console.log("onError callback")}
+                />
+              </div>
             </div>
           ))}
         </div>
@@ -36,4 +48,4 @@ const PdfViewer = (props) => {
   );
 };
 
-export default PdfViewer;
+export default VideoPlayer;

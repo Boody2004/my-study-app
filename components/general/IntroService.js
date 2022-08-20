@@ -15,7 +15,7 @@ const IntroService = (props) => {
           <img src={props.img} alt="img services"></img>
         </div>
         <div className="text-end max-w-xl text-white  grid content-center">
-          <h1 className="font-bold text-6xl">{props.title}</h1>
+          <h1 className="font-bold text-5xl sm:text-6xl">{props.title}</h1>
           <p className="text-xl mt-10">{props.subtitle}</p>
         </div>
       </div>
