@@ -77,6 +77,7 @@ export default function Home() {
               <div className="p-6">
                 <div className="flex justify-center">
                   <img
+                    className="w-full"
                     src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660683558/casual-life-3d-young-man-in-orange-headphones-sitting-at-the-computer_reupky.png"
                     alt="Img Services"
                   ></img>
@@ -95,7 +96,7 @@ export default function Home() {
               <div className="p-6">
                 <div className="flex justify-center">
                   <img
-                    className="w-9/12"
+                    className="w-8/12"
                     src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660638929/casual-life-3d-boy-using-laptop-and-talking-on-the-phone_cxtygy.png"
                     alt="Img Services"
                   ></img>
@@ -132,6 +133,7 @@ export default function Home() {
               <div className="p-6">
                 <div className="flex justify-center">
                   <img
+                    className="w-10/12"
                     src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660638926/casual-life-3d-boy-lying-on-stomach-and-using-tablet-with-stylus-in-hand_htc3nu.png"
                     alt="Img Services"
                   ></img>
