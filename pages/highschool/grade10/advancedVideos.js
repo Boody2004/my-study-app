@@ -1,5 +1,6 @@
 import Nav from "../../../components/general/Nav";
 import IntroService from "../../../components/general/IntroService";
+import VideoPlayer from "../../../components/general/VideoPlayer";
 import Footer from "../../../components/general/Footer";
 
 const AdvancedVideo = () => {
@@ -12,6 +13,7 @@ const AdvancedVideo = () => {
           title="الفديوهات مفتوحة المصدر"
           subtitle="يوجد افضل الفديوهات مفتوحة المصدر الي هذه المرحلة"
         />
+        <VideoPlayer urlApi="highSchool/grade10/advancedVideos" />
       </div>
       <Footer />
     </section>
