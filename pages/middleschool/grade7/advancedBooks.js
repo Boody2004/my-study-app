@@ -1,5 +1,6 @@
 import Nav from "../../../components/general/Nav";
 import IntroService from "../../../components/general/IntroService";
+import PdfViewer from "../../../components/general/PdfViewer";
 import Footer from "../../../components/general/Footer";
 
 const advancedbook = () => {
@@ -12,6 +13,7 @@ const advancedbook = () => {
           title="الكتب الخارجية"
           subtitle="يوجد جميع الكتب الخارجية الي هذه المرحلة"
         />
+        <PdfViewer urlApi="middleSchool/grade7/advancedBooks" />
       </div>
       <Footer />
     </section>
