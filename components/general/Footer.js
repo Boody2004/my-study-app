@@ -1,5 +1,4 @@
 import Link from "next/link";
-import ComingSoon from "./ComingSoon";
 
 const Footer = () => {
   return (
@@ -15,14 +14,16 @@ const Footer = () => {
                 Grade 10
               </p>
             </Link>
-            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
-              <ComingSoon />
-              Grade 11
-            </p>
-            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
-              <ComingSoon />
-              Grade 12
-            </p>
+            <Link href="/highschool/grade11">
+              <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+                Grade 11
+              </p>
+            </Link>
+            <Link href="/highschool/grade12">
+              <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+                Grade 12
+              </p>
+            </Link>
           </div>
           <div>
             <h1 className="font-bold text-2xl text-white pb-5">
@@ -33,14 +34,16 @@ const Footer = () => {
                 Grade 7
               </p>
             </Link>
-            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
-              <ComingSoon />
-              Grade 8
-            </p>
-            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
-              <ComingSoon />
-              Grade 9
-            </p>
+            <Link href="/middleschool/grade8">
+              <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+                Grade 8
+              </p>
+            </Link>
+            <Link href="/middleschool/grade9">
+              <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+                Grade 9
+              </p>
+            </Link>
           </div>
           <div>
             <h1 className="font-bold text-2xl text-white pb-5">
