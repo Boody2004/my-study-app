@@ -6,7 +6,7 @@ const Nav = () => {
       <div className="flex justify-between items-center">
         <Link href="/">
           <h1 className="text-textPrimary text-2xl font-bold cursor-pointer">
-            My Study App
+            Online Lessons
           </h1>
         </Link>
         <Link href="/gettingStarted">
