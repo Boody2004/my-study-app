@@ -3,21 +3,21 @@ import IntroService from "../../../components/general/IntroService";
 import VideoPlayer from "../../../components/general/VideoPlayer";
 import Footer from "../../../components/general/Footer";
 
-const Videos = () => {
+const AdvancedVideo = () => {
   return (
     <section>
       <div className="container mx-auto px-5 sm:px-10">
         <Nav />
         <IntroService
-          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660770852/casual-life-3d-young-man-and-woman-looking-at-tablet_gs0xsm.png"
-          title="الفديوهات التعليمية"
-          subtitle="يوجد افضل الفديوهات شرح الدروس الي هذه المرحلة"
+          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660789652/casual-life-3d-boy-and-girl-working-on-computer_mgekvh.png"
+          title="الفديوهات مفتوحة المصدر"
+          subtitle="يوجد افضل الفديوهات مفتوحة المصدر الي هذه المرحلة"
         />
-        <VideoPlayer urlApi="kg/kg1/videos" />
+        <VideoPlayer urlApi="kg/kg2/advancedVideos" />
       </div>
       <Footer />
     </section>
   );
 };
 
-export default Videos;
+export default AdvancedVideo;

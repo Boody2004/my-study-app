@@ -13,7 +13,7 @@ const AdvancedBook = () => {
           title="الكتب الخارجية"
           subtitle="يوجد جميع الكتب الخارجية الي هذه المرحلة"
         />
-        <PdfViewer urlApi="kg/kg1/advancedBooks" />
+        <PdfViewer urlApi="kg/kg2/advancedBooks" />
       </div>
       <Footer />
     </section>

@@ -3,7 +3,7 @@ import IntroService from "../../../components/general/IntroService";
 import PdfViewer from "../../../components/general/PdfViewer";
 import Footer from "../../../components/general/Footer";
 
-const Book = () => {
+const Books = () => {
   return (
     <section>
       <div className="container mx-auto px-5 sm:px-10">
@@ -20,4 +20,4 @@ const Book = () => {
   );
 };
 
-export default Book;
+export default Books;

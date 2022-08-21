@@ -81,10 +81,11 @@ const Footer = () => {
                 KG1
               </p>
             </Link>
-            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
-              <ComingSoon />
-              KG2
-            </p>
+            <Link href="/kg/kg2">
+              <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+                KG2
+              </p>
+            </Link>
           </div>
           <div className="md:col-span-2">
             <h1 className="font-bold text-2xl text-white pb-5">مواكبة</h1>

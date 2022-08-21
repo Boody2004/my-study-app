@@ -13,7 +13,7 @@ const Videos = () => {
           title="الفديوهات التعليمية"
           subtitle="يوجد افضل الفديوهات شرح الدروس الي هذه المرحلة"
         />
-        <VideoPlayer urlApi="kg/kg1/videos" />
+        <VideoPlayer urlApi="kg/kg2/videos" />
       </div>
       <Footer />
     </section>
