@@ -3,19 +3,19 @@ import Nav from "../../components/general/Nav";
 import ServicesGrate from "../../components/general/ServicesGrade";
 import Footer from "../../components/general/Footer";
 
-const KG2 = () => {
+const PrimaryGrade2 = () => {
   return (
     <section>
       <Head>
-        <title>KG 2 | Online Lessons App</title>
+        <title>Grade 1 | Online Lessons App</title>
       </Head>
       <div className="container mx-auto px-5 sm:px-10">
         <Nav />
         <ServicesGrate
-          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660638926/casual-life-3d-boy-lying-on-stomach-and-using-tablet-with-stylus-in-hand_htc3nu.png"
-          title="مرحلة رياض اطفال KG2"
+          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660638783/casual-life-3d-boy-sitting-at-the-desk-with-open-book_qma796.png"
+          title="المرحلة الابتدائية Grade 2"
           subtitle="يوجد جميع كتب الوزارة و الكتب الخارجية و الفديوهات التعليمية و الفديوهات التعليمية ذات مصدر مفتوح الي هذه المرحلة"
-          urlApi="kg/kg2/kg2List"
+          urlApi="primaryGrade/grade2/grade2List"
         />
       </div>
       <Footer />
@@ -23,4 +23,4 @@ const KG2 = () => {
   );
 };
 
-export default KG2;
+export default PrimaryGrade2;

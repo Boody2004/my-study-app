@@ -51,26 +51,31 @@ const Footer = () => {
                 Grade 1
               </p>
             </Link>
-            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
-              <ComingSoon />
-              Grade 2
-            </p>
-            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
-              <ComingSoon />
-              Grade 3
-            </p>
-            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
-              <ComingSoon />
-              Grade 4
-            </p>
-            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
-              <ComingSoon />
-              Grade 5
-            </p>
-            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
-              <ComingSoon />
-              Grade 6
-            </p>
+            <Link href="/primarygrade/grade2">
+              <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+                Grade 2
+              </p>
+            </Link>
+            <Link href="/primarygrade/grade3">
+              <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+                Grade 3
+              </p>
+            </Link>
+            <Link href="/primarygrade/grade4">
+              <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+                Grade 4
+              </p>
+            </Link>
+            <Link href="/primarygrade/grade5">
+              <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+                Grade 5
+              </p>
+            </Link>
+            <Link href="/primarygrade/grade6">
+              <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+                Grade 6
+              </p>
+            </Link>
           </div>
           <div>
             <h1 className="font-bold text-2xl text-white pb-5">
