@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import IntroService from "../general/IntroService";
+import ComingSoon from "../general/ComingSoon";
 
 const Service = (props) => {
   const [items, setItems] = useState([]);
@@ -37,6 +38,7 @@ const Service = (props) => {
                 <div className="p-6">
                   <h1 className="text-2xl font-bold	text-textPrimary mb-2">
                     {item.title}
+                    {item.comingSoon ? <ComingSoon /> : ""}
                   </h1>
                   <p className="text-base	font-medium	text-light mb-1">
                     {item.underTitle}

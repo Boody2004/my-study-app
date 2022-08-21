@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ComingSoon from "./ComingSoon";
 
 const Footer = () => {
   return (
@@ -10,90 +11,80 @@ const Footer = () => {
               المرحلة الثانوية
             </h1>
             <Link href="/highschool/grade10">
-              <p className="font-medium pb-2 ease-out duration-200 hover:text-white cursor-pointer">
-                المرحلة الثانوية Grade 10
+              <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+                Grade 10
               </p>
             </Link>
-            <Link href="/">
-              <p className="font-medium pb-2 ease-out duration-200 hover:text-white cursor-pointer">
-                المرحلة الثانوية Grade 11
-              </p>
-            </Link>
-            <Link href="/">
-              <p className="font-medium pb-2 ease-out duration-200 hover:text-white cursor-pointer">
-                المرحلة الثانوية Grade 12
-              </p>
-            </Link>
+            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+              <ComingSoon />
+              Grade 11
+            </p>
+            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+              <ComingSoon />
+              Grade 12
+            </p>
           </div>
           <div>
             <h1 className="font-bold text-2xl text-white pb-5">
               المرحلة الاعدادية
             </h1>
             <Link href="/middleschool/grade7">
-              <p className="font-medium pb-2 ease-out duration-200 hover:text-white cursor-pointer">
-                المرحلة الاعدادية Grade 7
+              <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+                Grade 7
               </p>
             </Link>
-            <Link href="/">
-              <p className="font-medium pb-2 ease-out duration-200 hover:text-white cursor-pointer">
-                المرحلة الاعدادية Grade 8
-              </p>
-            </Link>
-            <Link href="/">
-              <p className="font-medium pb-2 ease-out duration-200 hover:text-white cursor-pointer">
-                المرحلة الاعدادية Grade 9
-              </p>
-            </Link>
+            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+              <ComingSoon />
+              Grade 8
+            </p>
+            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+              <ComingSoon />
+              Grade 9
+            </p>
           </div>
           <div>
             <h1 className="font-bold text-2xl text-white pb-5">
               المرحلة الابتدائية
             </h1>
             <Link href="/primarygrade/grade1">
-              <p className="font-medium pb-2 ease-out duration-200 hover:text-white cursor-pointer">
-                المرحلة الابتدائية Grade 1
+              <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+                Grade 1
               </p>
             </Link>
-            <Link href="/">
-              <p className="font-medium pb-2 ease-out duration-200 hover:text-white cursor-pointer">
-                المرحلة الابتدائية Grade 2
-              </p>
-            </Link>
-            <Link href="/">
-              <p className="font-medium pb-2 ease-out duration-200 hover:text-white cursor-pointer">
-                المرحلة الابتدائية Grade 3
-              </p>
-            </Link>
-            <Link href="/">
-              <p className="font-medium pb-2 ease-out duration-200 hover:text-white cursor-pointer">
-                المرحلة الابتدائية Grade 4
-              </p>
-            </Link>
-            <Link href="/">
-              <p className="font-medium pb-2 ease-out duration-200 hover:text-white cursor-pointer">
-                المرحلة الابتدائية Grade 5
-              </p>
-            </Link>
-            <Link href="/">
-              <p className="font-medium pb-2 ease-out duration-200 hover:text-white cursor-pointer">
-                المرحلة الابتدائية Grade 6
-              </p>
-            </Link>
+            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+              <ComingSoon />
+              Grade 2
+            </p>
+            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+              <ComingSoon />
+              Grade 3
+            </p>
+            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+              <ComingSoon />
+              Grade 4
+            </p>
+            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+              <ComingSoon />
+              Grade 5
+            </p>
+            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+              <ComingSoon />
+              Grade 6
+            </p>
           </div>
           <div>
             <h1 className="font-bold text-2xl text-white pb-5">
               مرحلة رياض اطفال
             </h1>
             <Link href="/kg/kg1">
-              <p className="font-medium pb-2 ease-out duration-200 hover:text-white cursor-pointer">
-                مرحلة رياض اطفال KG1
+              <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+                KG1
               </p>
             </Link>
-            <Link href="/">
-              <p className="font-medium pb-2 ease-out duration-200 hover:text-white cursor-pointer">
-                مرحلة رياض اطفال KG2
-              </p>
-            </Link>
+            <p className="font-medium pb-3 ease-out duration-200 hover:text-white cursor-pointer">
+              <ComingSoon />
+              KG2
+            </p>
           </div>
           <div className="md:col-span-2">
             <h1 className="font-bold text-2xl text-white pb-5">مواكبة</h1>
