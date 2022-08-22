@@ -9,7 +9,7 @@ const Videos = () => {
       <div className="container mx-auto px-5 sm:px-10">
         <Nav />
         <IntroService
-          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660770852/casual-life-3d-young-man-and-woman-looking-at-tablet_gs0xsm.png"
+          img="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FVideo.png?alt=media&token=0f792b8c-a270-4bb2-8b59-f8ba55d991fb"
           title="الفديوهات التعليمية"
           subtitle="يوجد افضل الفديوهات شرح الدروس الي هذه المرحلة"
         />

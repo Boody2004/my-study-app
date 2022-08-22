@@ -12,7 +12,7 @@ const MiddleSchool2 = () => {
       <div className="container mx-auto px-5 sm:px-10">
         <Nav />
         <ServicesGrate
-          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660683558/casual-life-3d-young-man-in-orange-headphones-sitting-at-the-computer_reupky.png"
+          img="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FMiddle%20School.png?alt=media&token=9ea0111e-21b1-484b-a31e-6de908604f1c"
           title="المرحلة الاعدادية Grade 8"
           subtitle="يوجد جميع كتب الوزارة و الكتب الخارجية و الفديوهات التعليمية و الفديوهات التعليمية ذات مصدر مفتوح الي هذه المرحلة"
           urlApi="middleSchool/grade8/grade8List"

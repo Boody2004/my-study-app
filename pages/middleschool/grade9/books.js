@@ -9,7 +9,7 @@ const Book = () => {
       <div className="container mx-auto px-5 sm:px-10">
         <Nav />
         <IntroService
-          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660769906/casual-life-3d-cat-lying-on-books_hst1vt.png"
+          img="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FBook.png?alt=media&token=e5f64a1b-2c38-4bfe-b2b7-863f2b69329a"
           title="كتب الوزارة"
           subtitle="يوجد جميع كتب الوزارة الي هذه المرحلة"
         />

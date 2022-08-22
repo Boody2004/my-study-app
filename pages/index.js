@@ -24,8 +24,8 @@ export default function Home() {
             <div className="flex justify-center">
               <img
                 className="w-9/12"
-                src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660685912/casual-life-3d-young-man-surrounded-by-gadgets-taking-notes_s9ixdx.png"
-                alt="img start"
+                src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FHome%20Intro.png?alt=media&token=29ebb768-2d52-45c9-aca5-7197fd3529e5"
+                alt="Img Home Intro"
               ></img>
             </div>
             <div className="text-end max-w-xl text-white">
@@ -58,7 +58,7 @@ export default function Home() {
                 <div className="flex justify-center">
                   <img
                     className="w-full"
-                    src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660683558/casual-life-3d-young-man-in-orange-headphones-sitting-at-the-computer_reupky.png"
+                    src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FHigh%20Cchools.png?alt=media&token=0bc605e3-4f17-4433-a1d0-022e1bb3ebaa"
                     alt="Img Services"
                   ></img>
                 </div>
@@ -77,7 +77,7 @@ export default function Home() {
                 <div className="flex justify-center">
                   <img
                     className="w-8/12"
-                    src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660638929/casual-life-3d-boy-using-laptop-and-talking-on-the-phone_cxtygy.png"
+                    src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FMiddle%20School.png?alt=media&token=9ea0111e-21b1-484b-a31e-6de908604f1c"
                     alt="Img Services"
                   ></img>
                 </div>
@@ -95,7 +95,7 @@ export default function Home() {
               <div className="p-6">
                 <div className="flex justify-center">
                   <img
-                    src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660638783/casual-life-3d-boy-sitting-at-the-desk-with-open-book_qma796.png"
+                    src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FPrimary%20Grade.png?alt=media&token=6d6de740-6379-4e3e-939f-16eb03a7df4c"
                     alt="Img Services"
                   ></img>
                 </div>
@@ -114,7 +114,7 @@ export default function Home() {
                 <div className="flex justify-center">
                   <img
                     className="w-10/12"
-                    src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660638926/casual-life-3d-boy-lying-on-stomach-and-using-tablet-with-stylus-in-hand_htc3nu.png"
+                    src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FKG.png?alt=media&token=a28db70c-5d06-4f22-85fb-64f18f1f8ae1"
                     alt="Img Services"
                   ></img>
                 </div>
@@ -143,8 +143,8 @@ export default function Home() {
             <div className="flex justify-center">
               <img
                 className="w-8/12"
-                src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660769906/casual-life-3d-cat-lying-on-books_hst1vt.png"
-                alt="img start"
+                src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FBook.png?alt=media&token=e5f64a1b-2c38-4bfe-b2b7-863f2b69329a"
+                alt="Img Service Book"
               ></img>
             </div>
           </div>
@@ -154,8 +154,8 @@ export default function Home() {
             <div className="flex justify-center">
               <img
                 className="w-7/12"
-                src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660770852/casual-life-3d-young-man-and-woman-looking-at-tablet_gs0xsm.png"
-                alt="img start"
+                src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FVideo.png?alt=media&token=0f792b8c-a270-4bb2-8b59-f8ba55d991fb"
+                alt="Img Service Video"
               ></img>
             </div>
             <div className="text-end max-w-xl grid content-center">
@@ -194,8 +194,8 @@ export default function Home() {
             <div className="flex justify-center">
               <img
                 className="w-9/12	"
-                src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660737560/casual-life-3d-graduates-hat-and-books_ljid45.png"
-                alt="img start"
+                src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FHome.png?alt=media&token=20fc3edd-d538-47dd-a7a7-625eee4646e5"
+                alt="Img Home"
               ></img>
             </div>
           </div>

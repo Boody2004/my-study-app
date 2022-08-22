@@ -12,7 +12,7 @@ const IntroService = (props) => {
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 p-10 sm:p-20">
         <div className="flex justify-center">
-          <img src={props.img} alt="img services"></img>
+          <img className="w-6/12" src={props.img} alt="Img"></img>
         </div>
         <div className="text-end max-w-xl text-white  grid content-center">
           <h1 className="font-bold text-5xl sm:text-6xl">{props.title}</h1>

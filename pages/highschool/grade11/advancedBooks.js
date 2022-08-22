@@ -9,7 +9,7 @@ const advancedbook = () => {
       <div className="container mx-auto px-5 sm:px-10">
         <Nav />
         <IntroService
-          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660789544/casual-life-3d-cat-sitting-on-bookshelf_tnjvcp.png"
+          img="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FAdvanced%20Book.png?alt=media&token=7550acf7-98ec-47cd-835b-000c776870fc"
           title="الكتب الخارجية"
           subtitle="يوجد جميع الكتب الخارجية الي هذه المرحلة"
         />

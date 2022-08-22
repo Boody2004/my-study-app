@@ -8,7 +8,7 @@ const Plays = () => {
       <div className="container mx-auto px-5 sm:px-10">
         <Nav />
         <IntroService
-          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660787167/casual-life-3d-boy-sitting-in-cardboard-box_d1tn6l.png"
+          img="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FPlay.png?alt=media&token=6adbaefa-9dae-4945-a6e5-7fbabc0a244e"
           title="الالعاب التعليمية"
           subtitle="العاب تعلمية لسهولة التعلم عندالاطفال"
         />

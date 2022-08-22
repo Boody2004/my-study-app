@@ -28,32 +28,32 @@ const gettingStarted = () => {
             <div className="flex justify-center">
               <img
                 className="w-10/12"
-                src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1661128124/casual-life-3d-excited-young-woman-receiving-like-notifications-on-her-laptop_lfffgf.png"
-                alt="img getting started"
+                src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FGetting%20Started.png?alt=media&token=ff4135be-dedf-4840-8acd-22eb611775da"
+                alt="Img Getting Started"
               ></img>
             </div>
           </div>
         </div>
         <Service
-          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660638926/casual-life-3d-boy-lying-on-stomach-and-using-tablet-with-stylus-in-hand_htc3nu.png"
+          img="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FKG.png?alt=media&token=a28db70c-5d06-4f22-85fb-64f18f1f8ae1"
           title="مرحلة رياض اطفال"
           subtitle="يوجد جميع كتب الوزارة و الكتب الخارجية و الفديوهات التعليمية و الفديوهات التعليمية ذات مصدر مفتوح الي هذه المرحلة"
           urlApi="kg/kgList"
         />
         <Service
-          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660638783/casual-life-3d-boy-sitting-at-the-desk-with-open-book_qma796.png"
+          img="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FPrimary%20Grade.png?alt=media&token=6d6de740-6379-4e3e-939f-16eb03a7df4c"
           title="المرحلة الابتدائية"
           subtitle="يوجد جميع كتب الوزارة و الكتب الخارجية و الفديوهات التعليمية و الفديوهات التعليمية ذات مصدر مفتوح الي هذه المرحلة"
           urlApi="primaryGrade/primaryGradeList"
         />
         <Service
-          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660638929/casual-life-3d-boy-using-laptop-and-talking-on-the-phone_cxtygy.png"
+          img="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FMiddle%20School.png?alt=media&token=9ea0111e-21b1-484b-a31e-6de908604f1c"
           title="المرحلة الاعدادية"
           subtitle="يوجد جميع كتب الوزارة و الكتب الخارجية و الفديوهات التعليمية و الفديوهات التعليمية ذات مصدر مفتوح الي هذه المرحلة"
           urlApi="middleSchool/middleSchoolList"
         />
         <Service
-          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660683558/casual-life-3d-young-man-in-orange-headphones-sitting-at-the-computer_reupky.png"
+          img="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FHigh%20Cchools.png?alt=media&token=0bc605e3-4f17-4433-a1d0-022e1bb3ebaa"
           title="المرحلة الثانوية"
           subtitle="يوجد جميع كتب الوزارة و الكتب الخارجية و الفديوهات التعليمية و الفديوهات التعليمية ذات مصدر مفتوح الي هذه المرحلة"
           urlApi="highSchool/highSchoolList"
