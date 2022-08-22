@@ -135,7 +135,7 @@ export default function Home() {
                 <span className="text-lightSecondary">كتب الخارجية</span>
               </h1>
               <p className="text-xl mt-10 text-textPrimary">
-                كل الكتب و الفديوهات موجودة علي منصة دروس اون لاين
+                كل الكتب الوزارة و الكتب الخارجية موجودة علي منصة دروس اون لاين
                 <br />
                 هتتعلم اسرع و هتوفر وقت و مجهود
               </p>
@@ -166,8 +166,8 @@ export default function Home() {
                 </span>
               </h1>
               <p className="text-xl mt-10 text-textPrimary">
-                كل الكتب و الفديوهات موجودة علي منصة دروس اون لاين
-                <br />
+                كل الفديوهات التعليمية و الفديوهات التعليمية ذات المصدر المفتوح
+                موجودة علي منصة دروس اون لاين <br />
                 هتتعلم اسرع و هتوفر وقت و مجهود
               </p>
             </div>

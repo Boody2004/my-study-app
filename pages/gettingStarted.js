@@ -11,9 +11,29 @@ const gettingStarted = () => {
       </Head>
       <div className="container mx-auto px-5 sm:px-10">
         <Nav />
-        <h1 className="text-center font-semibold text-6xl text-light">
-          اختر المراحل التعليمية
-        </h1>
+        <div className="my-40">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <div className="text-end max-w-xl grid content-center">
+              <h1 className="font-bold text-4xl sm:text-6xl text-textPrimary">
+                اختر المراحل التعليمية
+              </h1>
+              <p className="text-xl mt-10 text-textPrimary">
+                كل الكتب الوزارة و الكتب الخارجية و الفديوهات التعليمية و
+                الفديوهات التعليمية ذات المصدر المفتوح موجودة علي منصة دروس اون
+                لاين
+                <br />
+                هتتعلم اسرع و هتوفر وقت و مجهود
+              </p>
+            </div>
+            <div className="flex justify-center">
+              <img
+                className="w-10/12"
+                src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1661128124/casual-life-3d-excited-young-woman-receiving-like-notifications-on-her-laptop_lfffgf.png"
+                alt="img getting started"
+              ></img>
+            </div>
+          </div>
+        </div>
         <Service
           img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1660638926/casual-life-3d-boy-lying-on-stomach-and-using-tablet-with-stylus-in-hand_htc3nu.png"
           title="مرحلة رياض اطفال"
