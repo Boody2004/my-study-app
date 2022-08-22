@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ClassicBtn from "./ClassicBtn";
 
 const Nav = () => {
   return (
@@ -9,11 +10,7 @@ const Nav = () => {
             Online Lessons
           </h1>
         </Link>
-        <Link href="/gettingStarted">
-          <button className="bg-light text-white text-l py-2 px-4 rounded-xl">
-            البدء
-          </button>
-        </Link>
+        <ClassicBtn class="text-l py-2 px-4" icon={false} />
       </div>
     </nav>
   );

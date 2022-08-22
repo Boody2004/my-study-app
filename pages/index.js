@@ -1,7 +1,7 @@
 import styles from "../styles/Home.module.css";
 import Head from "next/head";
-import Link from "next/link";
 import Nav from "../components/general/Nav";
+import ClassicBtn from "../components/general/ClassicBtn";
 import Footer from "../components/general/Footer";
 
 export default function Home() {
@@ -32,36 +32,16 @@ export default function Home() {
               <h1 className="font-bold text-6xl sm:text-7xl">
                 <span className="text-light">تعلم اسرع</span>
                 <br />
-                مع منصة مذاكرتي
+                مع منصة دروس اون لاين
               </h1>
               <p className="text-xl mt-10 mb-5">
-                منصة مذاكرتي هي منصة الي تعليم الطلاب من داية الصف رياض اطفال
-                الي الصف الثانوي العام
+                منصة دروس اون لاين هي منصة الي تعليم الطلاب من داية الصف رياض
+                اطفال الي الصف الثانوي العام
                 <br />
                 تتميز المنصة بي جودة الفديوهات و الكتب الدراسة الي الطالب و افضل
                 طرق الشرح المبسطة و جودة تنظيم و تقسيم المراحل الدراسة للطلبة
               </p>
-              <Link href="/gettingStarted">
-                <button className="text-white bg-light text-xl py-4 px-6 rounded-xl">
-                  <div className="flex items-center">
-                    البدء
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M9 5l7 7-7 7"
-                      />
-                    </svg>
-                  </div>
-                </button>
-              </Link>
+              <ClassicBtn class="text-xl py-4 px-6" icon={true} />
             </div>
           </div>
         </div>
@@ -155,7 +135,7 @@ export default function Home() {
                 <span className="text-lightSecondary">كتب الخارجية</span>
               </h1>
               <p className="text-xl mt-10 text-textPrimary">
-                كل الكتب و الفديوهات موجودة علي منصة مذاكرتي
+                كل الكتب و الفديوهات موجودة علي منصة دروس اون لاين
                 <br />
                 هتتعلم اسرع و هتوفر وقت و مجهود
               </p>
@@ -186,7 +166,7 @@ export default function Home() {
                 </span>
               </h1>
               <p className="text-xl mt-10 text-textPrimary">
-                كل الكتب و الفديوهات موجودة علي منصة مذاكرتي
+                كل الكتب و الفديوهات موجودة علي منصة دروس اون لاين
                 <br />
                 هتتعلم اسرع و هتوفر وقت و مجهود
               </p>
@@ -205,31 +185,11 @@ export default function Home() {
             <div className="text-end max-w-xl text-white ">
               <h1 className="font-bold text-6xl">ذاكر اون لاين</h1>
               <p className="text-xl mt-10 mb-5">
-                كل الكتب و الفديوهات موجودة علي منصة مذاكرتي
+                كل الكتب و الفديوهات موجودة علي منصة دروس اون لاين
                 <br />
                 هتتعلم اسرع و هتوفر وقت و مجهود
               </p>
-              <Link href="/gettingStarted">
-                <button className="text-white bg-light text-xl py-4 px-6 rounded-xl">
-                  <div className="flex items-center">
-                    البدء
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M9 5l7 7-7 7"
-                      />
-                    </svg>
-                  </div>
-                </button>
-              </Link>
+              <ClassicBtn class="text-xl py-4 px-6" icon={true} />
             </div>
             <div className="flex justify-center">
               <img
