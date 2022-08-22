@@ -3,7 +3,7 @@ import ClassicBtn from "./ClassicBtn";
 
 const Nav = () => {
   return (
-    <nav className="py-5 bg-background nav">
+    <nav className="py-5 bg-background">
       <div className="flex justify-between items-center">
         <Link href="/">
           <h1 className="text-textPrimary text-2xl font-bold cursor-pointer">
