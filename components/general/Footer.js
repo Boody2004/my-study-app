@@ -41,7 +41,7 @@ const Footer = () => {
               <input
                 type="hidden"
                 name="_next"
-                value="https://online-lessons.vercel.app"
+                value="https://onlinelessons.vercel.app"
               />
               <input
                 className="text-base text-white border-0 rounded-lg outline-0 m-2 py-3 px-5"
