@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Nav from "../../../components/general/Nav";
 import IntroService from "../../../components/general/IntroService";
 import PdfViewer from "../../../components/general/PdfViewer";
@@ -6,6 +7,9 @@ import Footer from "../../../components/general/Footer";
 const AdvancedBook = () => {
   return (
     <section>
+      <Head>
+        <title>KG 1 Advanced Book | Online Lessons App</title>
+      </Head>
       <div className="container mx-auto px-5 sm:px-10">
         <Nav />
         <IntroService

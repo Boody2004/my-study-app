@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Nav from "../../../components/general/Nav";
 import IntroService from "../../../components/general/IntroService";
 import VideoPlayer from "../../../components/general/VideoPlayer";
@@ -6,6 +7,9 @@ import Footer from "../../../components/general/Footer";
 const Videos = () => {
   return (
     <section>
+      <Head>
+        <title>KG 2 Videos | Online Lessons App</title>
+      </Head>
       <div className="container mx-auto px-5 sm:px-10">
         <Nav />
         <IntroService

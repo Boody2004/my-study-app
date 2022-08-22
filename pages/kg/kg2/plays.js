@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Nav from "../../../components/general/Nav";
 import IntroService from "../../../components/general/IntroService";
 import Footer from "../../../components/general/Footer";
@@ -5,6 +6,9 @@ import Footer from "../../../components/general/Footer";
 const Plays = () => {
   return (
     <section>
+      <Head>
+        <title>KG 2 Plays | Online Lessons App</title>
+      </Head>
       <div className="container mx-auto px-5 sm:px-10">
         <Nav />
         <IntroService

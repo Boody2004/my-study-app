@@ -1,11 +1,15 @@
+import Head from "next/head";
 import Nav from "../../../components/general/Nav";
 import IntroService from "../../../components/general/IntroService";
 import PdfViewer from "../../../components/general/PdfViewer";
 import Footer from "../../../components/general/Footer";
 
-const advancedbook = () => {
+const AdvancedBook = () => {
   return (
     <section>
+      <Head>
+        <title>Grade 2 Advanced Book | Online Lessons App</title>
+      </Head>
       <div className="container mx-auto px-5 sm:px-10">
         <Nav />
         <IntroService
@@ -20,4 +24,4 @@ const advancedbook = () => {
   );
 };
 
-export default advancedbook;
+export default AdvancedBook;
