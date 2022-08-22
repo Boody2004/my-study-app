@@ -3,6 +3,7 @@ import Head from "next/head";
 import Nav from "../components/general/Nav";
 import ClassicBtn from "../components/general/ClassicBtn";
 import Footer from "../components/general/Footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -50,81 +51,89 @@ export default function Home() {
             المراحل التعليمية
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 my-12">
-            <div
-              className="bg-white drop-shadow-md ease-out duration-200 hover:drop-shadow-xl"
-              style={{ borderRadius: "2rem" }}
-            >
-              <div className="p-6">
-                <div className="flex justify-center">
-                  <img
-                    className="w-full"
-                    src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FHigh%20Cchools.png?alt=media&token=0bc605e3-4f17-4433-a1d0-022e1bb3ebaa"
-                    alt="Img Services"
-                  ></img>
-                </div>
-                <div className="text-center my-5">
-                  <h1 className="text-2xl font-bold	text-textPrimary">
-                    المرحلة الثانوية
-                  </h1>
-                </div>
-              </div>
-            </div>
-            <div
-              className="bg-white drop-shadow-md ease-out duration-200 hover:drop-shadow-xl"
-              style={{ borderRadius: "2rem" }}
-            >
-              <div className="p-6">
-                <div className="flex justify-center">
-                  <img
-                    className="w-8/12"
-                    src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FMiddle%20School.png?alt=media&token=9ea0111e-21b1-484b-a31e-6de908604f1c"
-                    alt="Img Services"
-                  ></img>
-                </div>
-                <div className="text-center my-5">
-                  <h1 className="text-2xl font-bold	text-textPrimary">
-                    المرحلة الاعدادية
-                  </h1>
+            <Link href="/gettingStarted#kg">
+              <div
+                className="bg-white drop-shadow-md ease-out duration-200 hover:drop-shadow-xl cursor-pointer"
+                style={{ borderRadius: "2rem" }}
+              >
+                <div className="p-6">
+                  <div className="flex justify-center">
+                    <img
+                      className="w-10/12"
+                      src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FKG.png?alt=media&token=a28db70c-5d06-4f22-85fb-64f18f1f8ae1"
+                      alt="Img Services"
+                    ></img>
+                  </div>
+                  <div className="text-center my-5">
+                    <h1 className="text-2xl font-bold	text-textPrimary">
+                      مرحلة رياض اطفال
+                    </h1>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              className="bg-white drop-shadow-md ease-out duration-200 hover:drop-shadow-xl"
-              style={{ borderRadius: "2rem" }}
-            >
-              <div className="p-6">
-                <div className="flex justify-center">
-                  <img
-                    src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FPrimary%20Grade.png?alt=media&token=6d6de740-6379-4e3e-939f-16eb03a7df4c"
-                    alt="Img Services"
-                  ></img>
-                </div>
-                <div className="text-center my-5">
-                  <h1 className="text-2xl font-bold	text-textPrimary">
-                    المرحلة الابتدائية
-                  </h1>
-                </div>
-              </div>
-            </div>
-            <div
-              className="bg-white drop-shadow-md ease-out duration-200 hover:drop-shadow-xl"
-              style={{ borderRadius: "2rem" }}
-            >
-              <div className="p-6">
-                <div className="flex justify-center">
-                  <img
-                    className="w-10/12"
-                    src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FKG.png?alt=media&token=a28db70c-5d06-4f22-85fb-64f18f1f8ae1"
-                    alt="Img Services"
-                  ></img>
-                </div>
-                <div className="text-center my-5">
-                  <h1 className="text-2xl font-bold	text-textPrimary">
-                    مرحلة رياض اطفال
-                  </h1>
+            </Link>
+            <Link href="/gettingStarted#primarygrade">
+              <div
+                className="bg-white drop-shadow-md ease-out duration-200 hover:drop-shadow-xl cursor-pointer"
+                style={{ borderRadius: "2rem" }}
+              >
+                <div className="p-6">
+                  <div className="flex justify-center">
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FPrimary%20Grade.png?alt=media&token=6d6de740-6379-4e3e-939f-16eb03a7df4c"
+                      alt="Img Services"
+                    ></img>
+                  </div>
+                  <div className="text-center my-5">
+                    <h1 className="text-2xl font-bold	text-textPrimary">
+                      المرحلة الابتدائية
+                    </h1>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
+            <Link href="/gettingStarted#middleSchool">
+              <div
+                className="bg-white drop-shadow-md ease-out duration-200 hover:drop-shadow-xl cursor-pointer"
+                style={{ borderRadius: "2rem" }}
+              >
+                <div className="p-6">
+                  <div className="flex justify-center">
+                    <img
+                      className="w-8/12"
+                      src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FMiddle%20School.png?alt=media&token=9ea0111e-21b1-484b-a31e-6de908604f1c"
+                      alt="Img Services"
+                    ></img>
+                  </div>
+                  <div className="text-center my-5">
+                    <h1 className="text-2xl font-bold	text-textPrimary">
+                      المرحلة الاعدادية
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </Link>
+            <Link href="/gettingStarted#highSchool">
+              <div
+                className="bg-white drop-shadow-md ease-out duration-200 hover:drop-shadow-xl cursor-pointer"
+                style={{ borderRadius: "2rem" }}
+              >
+                <div className="p-6">
+                  <div className="flex justify-center">
+                    <img
+                      className="w-full"
+                      src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FHigh%20Cchools.png?alt=media&token=0bc605e3-4f17-4433-a1d0-022e1bb3ebaa"
+                      alt="Img Services"
+                    ></img>
+                  </div>
+                  <div className="text-center my-5">
+                    <h1 className="text-2xl font-bold	text-textPrimary">
+                      المرحلة الثانوية
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </Link>
           </div>
         </div>
         <div className="my-40">
