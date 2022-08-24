@@ -22,14 +22,16 @@ const PdfViewer = (props) => {
       {items.length > 0 && (
         <div className="mb-40">
           {items.map((item) => (
-            <div key={item.id} className="mb-20">
+            <div
+              key={item.id}
+              className="mb-20"
+              style={{ overflowX: "scroll" }}
+            >
               <div className="flex justify-between text-light mb-10">
                 <h1 className="font-bold text-5xl">{item.titleEn}</h1>
                 <h1 className="font-bold text-5xl">{item.titleAr}</h1>
               </div>
-              <div style={{ overflowX: "scroll" }}>
-                <iframe className="w-full min-h-screen" src={item.pdf}></iframe>
-              </div>
+              <iframe className="w-full min-h-screen" src={item.pdf}></iframe>
             </div>
           ))}
         </div>
