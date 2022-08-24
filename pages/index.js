@@ -43,10 +43,10 @@ export default function Home() {
                 background: "linear-gradient(to right, #5961F9, #EE9AE5)",
               }}
             >
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 p-8 sm:py-20 sm:px-28 lg:px-20">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 p-5 sm:py-20 sm:px-28 lg:px-20">
                 <div className="flex justify-center">
                   <img
-                    className="w-9/12"
+                    className="sm:w-9/12"
                     src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FHome%20Intro.png?alt=media&token=29ebb768-2d52-45c9-aca5-7197fd3529e5"
                     alt="Img Home Intro"
                   ></img>
@@ -177,7 +177,7 @@ export default function Home() {
                 </div>
                 <div className="flex justify-center">
                   <img
-                    className="w-8/12"
+                    className="sm:w-8/12"
                     src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FBook.png?alt=media&token=e5f64a1b-2c38-4bfe-b2b7-863f2b69329a"
                     alt="Img Service Book"
                   ></img>
@@ -188,7 +188,7 @@ export default function Home() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                 <div className="flex justify-center">
                   <img
-                    className="w-7/12"
+                    className="sm:w-7/12"
                     src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FVideo.png?alt=media&token=0f792b8c-a270-4bb2-8b59-f8ba55d991fb"
                     alt="Img Service Video"
                   ></img>
@@ -228,7 +228,7 @@ export default function Home() {
                 </div>
                 <div className="flex justify-center">
                   <img
-                    className="w-9/12	"
+                    className="sm:w-9/12"
                     src="https://firebasestorage.googleapis.com/v0/b/onlinelessons-cab2d.appspot.com/o/Img%20Web%2FHome.png?alt=media&token=20fc3edd-d538-47dd-a7a7-625eee4646e5"
                     alt="Img Home"
                   ></img>
