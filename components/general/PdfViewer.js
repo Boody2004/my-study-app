@@ -27,9 +27,11 @@ const PdfViewer = (props) => {
                 <h1 className="font-bold text-5xl">{item.titleEn}</h1>
                 <h1 className="font-bold text-5xl">{item.titleAr}</h1>
               </div>
-              <div style={{ overflowX: "scroll" }}>
-                <iframe className="w-full min-h-screen" src={item.pdf}></iframe>
-              </div>
+              <iframe
+                style={{ overflowX: "scroll" }}
+                className="w-full min-h-screen"
+                src={item.pdf}
+              ></iframe>
             </div>
           ))}
         </div>
