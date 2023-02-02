@@ -4,7 +4,7 @@ import Link from "next/link";
 const FooterBtns = (props) => {
   const [items, setItems] = useState([]);
   const fetchData = () => {
-    fetch(`https://online-lessons-api.vercel.app//footer/${props.urlApi}`)
+    fetch(`https://online-lessons-api.vercel.app/footer/${props.urlApi}`)
       .then((response) => {
         return response.json();
       })

@@ -6,7 +6,7 @@ const Service = (props) => {
   const [items, setItems] = useState([]);
   const fetchData = () => {
     fetch(
-      `https://online-lessons-api.vercel.app//gettingStarted/${props.urlApi}`
+      `https://online-lessons-api.vercel.app/gettingStarted/${props.urlApi}`
     )
       .then((response) => {
         return response.json();
