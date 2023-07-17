@@ -27,7 +27,7 @@ const Service = (props) => {
         subtitle={props.subtitle}
       />
       {items.length > 0 && (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="rtl-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {items.map((item) => (
             <Link key={item.id} href={item.link}>
               <div
